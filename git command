@@ -1,0 +1,17 @@
+git init
+#initialise git respoitory
+
+#check the status 
+git status
+
+#configure of email and username 
+git config user.name "youruser name"
+git config user.email "youremail@email.com"
+
+#staging rhe files
+git add filename,filename
+# or 
+git add .
+
+#adding remote to your git
+git remote add origin "http://url_of_your_git_repo.git"
