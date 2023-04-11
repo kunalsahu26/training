@@ -1,0 +1,68 @@
+body {
+    background-color: bisque;
+    position: relative;
+}
+
+img {
+    width: 150px;
+    border-radius: 30px;
+}
+
+p {
+    color: blue;
+    display: block;
+    width: 200px;
+    margin-block-start: 10px;
+}
+
+.square100 {
+    height: 100px;
+    width: 100px;
+}
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: blue;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.third {
+    background-color: green;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.first_para {
+    color: red;
+}
+
+.red_apple {
+    background-color: green;
+}
+
+.green_apple {
+    background-color: red;
+}
+
+#special {
+    background-color: rgb(9, 81, 129);
+}
+
+.ekgroup,
+h1 {
+    background-color: rgb(54, 211, 159);
+    font-weight: bold;
+    color: rgb(9, 81, 129);
+}
+
+.apple:hover {
+    background-color: gold;
+    color: darkgreen;
+    font-weight: bold;
+}
