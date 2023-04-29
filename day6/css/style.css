@@ -1,0 +1,171 @@
+:root {
+    --primaryColor: #5ab0c4;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont: 'Dancing Script', cursive;
+    --titleFont: 'Sacramento', cursive;
+    --primaryAccentColor: #11999E;
+    --secondaryAccentColor: #EAF6F6;
+}
+
+* {
+    margin: 0%;
+}
+
+body {
+    margin: 0px;
+    color: var(--primaryColor);
+    line-height: 2;
+}
+
+
+/* .heading-group {
+    display: inline-block;
+    padding-top: 100px;
+} */
+
+.heading-group {
+    padding: 100px;
+}
+
+.heading {
+    font-family: var(--titleFont);
+    font-size: 2.25em;
+    margin: 0;
+    font-weight: 100px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: var(--titleFont);
+    color: var(--primaryColor);
+    font-size: 1.25cm;
+    font-weight: 100;
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+    width: 150px;
+}
+
+.mountain {
+    width: 300px;
+}
+
+img {
+    margin-bottom: -5px;
+}
+
+.intro {
+    margin: auto;
+    width: 34%;
+    color: var(--primaryColor);
+}
+
+hr {
+    margin: 50px auto;
+    border: dotted var(--primaryAccentColor)5px;
+    border-bottom: none;
+    width: 5%;
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 50px auto;
+}
+
+.middle-section {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.top-section {
+    text-align: center;
+    color: var(--primaryColor);
+    background-color: var(--backgroundColor);
+    padding-top: 70px;
+}
+
+.top-cloud {
+    margin-block-start: -40px;
+    margin-left: 100px;
+    width: 150px;
+    position: absolute;
+}
+
+.skill-image {
+    width: 150px;
+    float: left;
+    margin: auto 10px;
+}
+
+.left {
+    float: left;
+    margin-left: 50px;
+}
+
+.right {
+    float: right;
+    margin-right: 50px;
+}
+
+.my-skills {
+    margin: 0px auto 100px auto;
+}
+
+.skills {
+    width: 60%;
+    margin: 80px auto;
+    text-align: left;
+}
+
+.contact {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1.25em;
+    color: white;
+    background-image: linear-gradient(to bottom, #11cdd4, #057f83);
+}
+
+.contact:hover {
+    background-image: linear-gradient(to top, #11cdd4, #057f83);
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 40px 20px;
+}
+
+a {
+    color: #e3f5f5;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px 20px;
+    text-decoration: none;
+}
+
+.social {
+    margin: auto 30px;
+}
+
+.social-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a:hover {
+    color: #1114d4;
+}
+
+.copyright {
+    color: #e3f5f5;
+    text-align: center;
+}
